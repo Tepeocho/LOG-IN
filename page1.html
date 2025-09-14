@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <div id="signUpContainer">
+            <form id = "signUpForm">
+                <h1>Sign Up</h1>
+                <input type = "text" placeholder = "FirstName " id = "firstNameNewUser">
+                <br>
+                <input type = "text" placeholder = "LastName " id = "lastNameNewUser">
+                <br>
+                <input type = "email" placeholder = "Email Address " id = "emailNewUser">
+                <br>
+                <input type = "text" placeholder = "Username" id = "usernameNewUser">
+                <br>
+                <input type = "password" placeholder = "Password" id = "passwordNewUser">
+                <br>
+                <input type = "password" placeholder = "Confirm Password" id = "confirmPasswordNewUser">
+                <br>
+                <label style = "display: flex; align-items: center;" id = "checkboxLabel">
+                <input type = "checkbox" id = "termsCheckbox" style = "margin-right: 8px;">
+                    I agree to the <a href = "https://htmlcolorcodes.com/es/" target="_blank" id = "termAndConditionLink"> Term and Condition</a>
+                </label>
+                <button type = "submit" id = "entrarBtn">Sign Up</button>
+            </form>
+        </div>
+
+        <p id = "showUser"></p>
+        <p id = "showPassword"></p>
+        <p id = "showTerms"></p>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
